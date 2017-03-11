@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phone_dialer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="ro.pub.cs.systems.eim.lab03.phonedialer.PhoneDialerActivity">
+
+    <EditText
+        android:id="@+id/phone_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:inputType="phone" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="6">
+
+        <ImageButton
+            android:id="@+id/backspace_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:background="@null"
+            android:src="@drawable/backspace" />
+
+        <Button
+            android:id="@+id/number_1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:gravity="center"
+            android:text="@string/number_1" />
+
+        <Button
+            android:id="@+id/number_2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:gravity="center"
+            android:text="@string/number_2" />
+
+        <Button
+            android:id="@+id/number_3_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:gravity="center"
+            android:text="@string/number_3" />
+
+        <Button
+            android:id="@+id/number_4_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:gravity="center"
+            android:text="@string/number_4" />
+
+        <Button
+            android:id="@+id/number_5_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:gravity="center"
+            android:text="@string/number_5" />
+
+        <Button
+            android:id="@+id/number_6_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:gravity="center"
+            android:text="@string/number_6" />
+
+        <Button
+            android:id="@+id/number_7_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:gravity="center"
+            android:text="@string/number_7" />
+
+        <Button
+            android:id="@+id/number_8_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:gravity="center"
+            android:text="@string/number_8" />
+
+        <Button
+            android:id="@+id/number_9_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:gravity="center"
+            android:text="@string/number_9" />
+
+        <Button
+            android:id="@+id/number_star_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:gravity="center"
+            android:text="@string/star" />
+
+        <Button
+            android:id="@+id/number_0_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:gravity="center"
+            android:text="@string/number_0" />
+
+        <Button
+            android:id="@+id/number_pound_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:gravity="center"
+            android:text="@string/pound" />
+
+        <ImageButton
+            android:id="@+id/call_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="5"
+            android:background="@null"
+            android:src="@drawable/call" />
+
+        <ImageButton
+            android:id="@+id/hangup_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_row="5"
+            android:background="@null"
+            android:src="@drawable/hangup" />
+
+    </GridLayout>
+</LinearLayout>
